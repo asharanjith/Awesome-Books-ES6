@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Awesome Books</title>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <h2>Awesome Books</h2>
+            <ul>
+                <li><a id="listBtn" href="#bookList">List</a> </li>
+                <li><a id="addBtn" href="#bookForm">Add new</a></li>
+                <li><a id="contactBtn" href="#contactDetails">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="clock">
+            
+        </div>
+    <section id="bookList">
+        <h1>All awesome books</h1>
+        <p class="message"></p>
+        <div class="book-container">
+            
+        </div>
+    </section>
+    <section id="bookForm">
+        <h2>Add a new book</h2>
+        <form class="addBook">
+            <input type="text" id="title" placeholder="Title" class="bookName inputElements" required>
+            <input type="text" id="author" placeholder="Author" class="bookAuthor inputElements" required>
+            <div>
+                <button type="submit" id="addBook">Add</button>
+            </div>
+        </form>
+    </section>
+    <section class="hide" id="contactDetails">
+        <h2>Contact information</h2>
+        <p>Do you have any questions or you just want to say "Hello"? You can reach out to us!</p>
+        <ul>
+            <li>Our Email: <a  href="mailto:awesomebooks@gmail.com">awesomebooks@gmail.com</a></li>
+            <li>Our Phone Number: <a href="tel:123456789">123-456-789</a></li>
+            <li>Our Address: 123 Awesome Street, Awesome City</li>
+        </ul>
+    </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Copyright...</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

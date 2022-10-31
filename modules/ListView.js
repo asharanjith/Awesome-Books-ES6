@@ -10,7 +10,7 @@ const formArr = [bookSection, contactSection];
 const contactArr = [bookForm, bookSection];
 
 class listView {
-  static changeContent(key) {
+  static changeContent = (key) => {
     if (key === 'List') {
       listBtn.style.color = '#e90074';
       formBtn.style.color = '#555';
@@ -36,7 +36,7 @@ class listView {
         item.classList.add('hide');
       });
     }
-  }
+  };
 }
 
 const initial = () => {

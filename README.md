@@ -18,13 +18,7 @@ In this project, we were able to build an application that stores a list of book
 - code .
 
 
-👤 **Author1**
-
-- GitHub: [@Linushaddai99](https://github.com/Linushaddai99)
-- Twitter: [@ShaddaiLinus](https://twitter.com/ShaddaiLinus)
-- LinkedIn: [@ShaddaiLinus](https://www.linkedin.com/in/linusshaddai/)
-
-👤 **Author2**
+👤 **Author**
 
 - GitHub: [@asharanjith](https://github.com/asharanjith)
 - Twitter: [@asha_cep](https://twitter.com/asha_cep)

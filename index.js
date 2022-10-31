@@ -15,10 +15,10 @@ class Book {
     this.author = author;
   }
 
-  addBook() {
+  addBook = () => {
     bookList.push(this);
     localStorage.setItem('bookList', JSON.stringify(bookList));
-  }
+  };
 }
 
 function redirect() {

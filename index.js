@@ -6,9 +6,7 @@ const bookName = document.querySelector('.bookName');
 const bookAuthor = document.querySelector('.bookAuthor');
 const form = document.querySelector('.addBook');
 const bookList = JSON.parse(localStorage.getItem('bookList')) || [];
-
 const message = document.querySelector('.message');
-
 const time = document.querySelector('.clock');
 
 class Book {

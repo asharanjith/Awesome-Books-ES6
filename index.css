@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;600;800&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('./img/bg-3.jpg'), linear-gradient(rgb(68, 67, 67), rgb(51, 50, 50));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav li {
+  display: block;
+  margin-left: 15px;
+  padding-right: 20px;
+  border-right: 2px solid #e90074;
+  cursor: pointer;
+}
+
+.clock {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-left: auto;
+  width: 300px;
+  max-width: 100%;
+}
+
+.clock li {
+  display: inline-block;
+}
+
+main {
+  height: 94vh;
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+  padding: 13px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  color: #e90074;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+}
+
+#bookForm h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#bookForm,
+#bookList,
+#contactDetails {
+  width: 550px;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#bookForm {
+  padding-top: 70px;
+}
+
+#bookList {
+  height: 380px;
+  overflow-y: scroll;
+  background-color: rgba(242, 242, 242, 0.9);
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#bookList::-webkit-scrollbar {
+  display: none;
+}
+
+#bookList h1 {
+  color: #555;
+}
+
+input {
+  display: block;
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+}
+
+button {
+  padding: 7px 10px;
+  width: 100px;
+  box-shadow: 1px 2px 3px black;
+  background-color: #e90074;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.delete {
+  margin-bottom: 10px;
+}
+
+.bookName,
+.bookAuthor {
+  padding: 10px;
+}
+
+.book-container {
+  padding: 7px 10px;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 7px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.addBook div {
+  text-align: right;
+}
+
+#addBook {
+  background-color: #00ce89;
+}
+
+footer {
+  background-color: white;
+  padding: 13px 0;
+}
+
+#contactDetails {
+  background-color: #f2f2f2;
+  margin-top: 100px;
+  padding: 20px;
+  color: rgb(58, 57, 57);
+}
+
+#contactDetails h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+#contactDetails p {
+  margin-bottom: 15px;
+}
+
+#contactDetails ul {
+  margin-left: 40px;
+}
+
+#contactDetails a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
+.message {
+  display: block;
+  text-align: center;
+}

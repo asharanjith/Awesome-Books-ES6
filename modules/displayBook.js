@@ -8,13 +8,21 @@ const displayBook = (book) => {
     `;
     const deleteBook = document.createElement('button');
     deleteBook.classList.add('delete');
-    deleteBook.textContent = 'Remove';
+    deleteBook.textContent = 'Remove';   
     deleteBook.addEventListener('click', () => {
-      this.deleteBook(book.name);
+        newBook.remove();
+        let List = JSON.parse(localStorage.getItem('bookList'));
+        List = List.filter((item) => {
+            return item.name !== book.name;
+        });
+        localStorage.setItem('bookList', JSON.stringify(List));
     });
     newBook.appendChild(deleteBook);
     bookContainer.appendChild(newBook);
   };
+  
 
 export default displayBook;
+
+
 

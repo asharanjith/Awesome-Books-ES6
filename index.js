@@ -1,5 +1,6 @@
 import displayBook from './modules/displayBook.js';
 
+
 const bookName = document.querySelector('.bookName');
 const bookAuthor = document.querySelector('.bookAuthor');
 const form = document.querySelector('.addBook');
@@ -27,16 +28,10 @@ class Book {
     addBook() {
         bookList.push(this);
         localStorage.setItem('bookList', JSON.stringify(bookList));
-    } 
-     
-  
-    deleteBook= (name) => {
-      const removeItem = bookList.filter((item) => item.name !== name);
-      localStorage.setItem('bookList', JSON.stringify(removeItem));
-      window.location.reload();
-    }
+    }       
+    
   }
-  
+
   function redirect() {
     bookSection.classList.remove('hide');
     listArr.forEach((item) => {

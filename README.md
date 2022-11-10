@@ -1,7 +1,8 @@
 # Awesome-Books-ES6
+
 In this project, we were able to build an application that stores a list of books added to the browser's localstorage and display their title and authors on the page. The goal of this project was to practice using classes instead of objects and arrays.
 
-##- Major languages: 
+## Major languages: 
 - HTML
 - CSS
 - JavaScript
